@@ -1,0 +1,96 @@
+.contacts__link,
+.contacts__place {
+  color: white;
+
+  @media (max-width: $mini-desktop-width) {
+    font-size: 14px;
+  }
+
+  @media (max-width: $tablet-width) {
+    font-size: 12px;
+  }
+
+  @media (max-width: $mini-tablet-width) {
+    font-size: 10px;
+  }
+}
+
+.contacts__place {
+  margin: 0;
+  position: relative;
+  padding-left: 20px;
+
+  &::before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 5px;
+    width: 16px;
+    height: 17px;
+    background-image: url("../img/navi.svg");
+    background-repeat: no-repeat;
+  }
+}
+
+.contacts__link span {
+  color: $sand;
+}
+
+.contacts__call {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 15px;
+  width: 35%;
+  color: white;
+  font-size: 18px;
+  text-transform: uppercase;
+  border: 1px solid $sand;
+  border-radius: 20px;
+
+  @media (max-width: $mini-desktop-width) {
+    padding: 10px;
+    width: 30%;
+    font-size: 14px;
+  }
+
+  @media (max-width: $tablet-width) {
+    padding: 8px;
+    font-size: 12px;
+  }
+
+  @media (max-width: $mini-tablet-width) {
+    padding: 6px;
+    font-size: 10px;
+  }
+
+  @media (max-width: $mini-tablet-width) {
+    width: 100%;
+  }
+
+  &:hover {
+    opacity: 0.7;
+  }
+}
+
+.contacts__tel {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+
+  &::before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 5px;
+    width: 16px;
+    height: 17px;
+    background-image: url("../img/tel.svg");
+    background-repeat: no-repeat;
+  }
+
+  @media (max-width: $mini-tablet-width) {
+    margin-bottom: 10px;
+  }
+}

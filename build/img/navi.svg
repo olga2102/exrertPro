@@ -1,0 +1,12 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 21" width="14" height="21">
+	<title>01_меню</title>
+	<defs>
+		<image  width="14" height="21" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAVCAMAAABBhy+7AAAAAXNSR0IB2cksfwAAAMBQTFRFAAAAfX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19nQg8SAAAAEB0Uk5TACCR5P+UWPT1W1RXFPLt6xZ/VQFP837OcHHG9xwh+iYn/uCLhd6V/X0ZGHyaNDa2tC/8LYoK2zs9CNlJRMjHdjdwBe8AAAClSURBVHicTY/XEoJADEUvErvYe1dU7AUFBQv//1cmiyD34e45M5vMBAC0lE6kpzWoZLKkksuLFShOESgZAuWKtFFFTb7VG2i2GNrocHdlqMfQx4B7KDpiGENmJqJThhnm3KbogmGJFbe13mx3FsMeB0rkCJz+duaZix2ZfZUdZqQ3dYLjhuY64Ul3WUrWA7+o72Zk8Hwi34sVT6IXEnl/koYgCN8vmlQL/90CIGkAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="01_меню">
+		<use id="navi" href="#img1" x="0" y="0" />
+	</g>
+</svg>

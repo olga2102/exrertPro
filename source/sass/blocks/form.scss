@@ -1,0 +1,105 @@
+.form {
+  padding: 20px;
+  position: relative;
+
+  &::before {
+    position: absolute;
+    content: "";
+    top: -15px;
+    right: 5%;
+    width: 283px;
+    height: 568px;
+    background-image: url("../img/half-round.svg");
+
+    @media (max-width: $medium-desktop-width) {
+      right: 0;
+    }
+
+    @media (max-width: $mini-desktop-width) {
+     display: none;
+    }
+  }
+
+  @media (max-width: $mobile-width) {
+    padding: 0;
+  }
+}
+
+.form__text {
+  margin: 0 0 20px;
+  padding-left: 15px;
+  font-size: 16px;
+  line-height: 25px;
+
+  @media (max-width: $mini-desktop-width) {
+    font-size: 14px;
+  }
+}
+
+.form__text span {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.form__fieldset {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  border: none;
+  margin-bottom: 20px;
+}
+
+.form__input {
+  width: 70%;
+  min-height: 50px;
+  border-radius: 30px;
+  border: 1px solid grey;
+  box-shadow: 0px 0px 10px 2px rgba(34, 60, 80, 0.2) inset;
+
+  @media (max-width: $mini-desktop-width) {
+    width: 100%;
+  }
+}
+
+.form__label {
+  padding-left: 15px;
+}
+
+.form__label span {
+  color: $sand;
+}
+
+.form__button {
+  @include button-reset;
+  display: block;
+  padding: 10px;
+  min-height: 50px;
+  width: 70%;
+  background-color: $sand;
+  border-radius: 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 20px;
+
+  @media (max-width: $mini-desktop-width) {
+    width: 100%;
+  }
+
+  @media (max-width: $mini-desktop-width) {
+    font-size: 16px;
+  }
+
+  @media (max-width: $mobile-width) {
+    font-size: 14px;
+  }
+
+  &:hover {
+    opacity: 0.7;
+  }
+}
+
+.form__note {
+  color: grey;
+  font-size: 15px;
+}
